@@ -1,0 +1,46 @@
+html{
+	width: 100%;
+	margin:0;
+	font-size: 16px;
+}
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	height: 64px;
+}
+.header nav{
+	margin-right: 1.5rem;
+}
+.header li{
+	display: inline-block;
+	margin-left: 1rem;
+}
+.header a{
+	text-decoration: none;
+}
+.header .logo{
+	display: flex;
+	margin-left: 24px;
+	align-items: center;
+}
+.logo img{
+	height: 3.5rem;
+}
+.logo p{
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	font-weight: bolder;
+}
+.logo #colmar{
+	color:#000000;
+}
+.logo #academy{
+	color: #cccccc;
+}
